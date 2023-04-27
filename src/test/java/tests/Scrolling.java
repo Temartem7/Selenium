@@ -12,7 +12,7 @@ public class Scrolling extends BaseClass {
 
     Action action = new Action();
     @Test
-    public void testScrolling() throws InterruptedException {
+    public void testScrolling()throws InterruptedException{
         getDriver().get("http://omayo.blogspot.com/p/page3.html");
         WebElement username = getDriver().findElement(By.name("userid"));
         JavascriptExecutor js= (JavascriptExecutor) getDriver();
